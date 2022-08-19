@@ -1,0 +1,5 @@
+{
+    "launch_angle": {"roll" : 0,
+                     "pitch": 5,
+                     "yaw"  : 0}
+}
