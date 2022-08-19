@@ -1,0 +1,34 @@
+{
+    "stage1": {
+        "nosecone": {
+            "CG"      : 0.2,
+            "mass"    : 0.5,
+            "diameter": 0.11,
+            "length"  : 0.5,
+            "CP"      : 0.3,
+            "Cd"      : 0.004
+        },
+        "bodytube": {
+            "CG"      : 0.5,
+            "mass"    : 3.0,
+            "diameter": 0.11,
+            "length"  : 1.0,
+            "CP"      : 0.7,
+            "Cd"      : 0.29
+        },
+        "motor": {
+            "CG"          : 0.2,
+            "mass"        : 1.0,
+            "diameter"    : 0.11,
+            "length"      : 0.4,
+            "CP"          : 0.25,
+            "Cd"          : 0.29,
+            "propellant"  : {
+                "name"          : "good_propellant",
+                "mass"          : 0.45,
+                "mass_flow_rate": 0.15,
+                "Isp"           : 70
+            }
+        }
+    }
+}
